@@ -5,8 +5,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           {/*FavIcon*/}
           <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png" />
           <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png" />
