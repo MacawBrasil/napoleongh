@@ -33,7 +33,9 @@ export default class MyDocument extends Document {
           />
 
           {/* ACTA */}
-          <script type="text/javascript" src="https://www.actatechlaw.com.br/www/js/widget.js?c=0716d9708d321ffb6a00818614779e779925365c"></script>
+          <script async src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+          <script async src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+          <script async src="https://www.actatechlaw.com.br/www/js/widget.js?c=0716d9708d321ffb6a00818614779e779925365c"></script>
         </Head>
         <body>
           <Main />
